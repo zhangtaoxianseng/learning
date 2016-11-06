@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+  	<link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+	<script type="text/javascript" src="js/jquery-2.1.1.js"></script>
+	<script type="text/javascript" src="js/touch.min.js"></script>
+  	<script type="text/javascript" src="js/xiaomi.js"></script>
+    <script type="text/javascript">
+    	
+   		document.addEventListener('plusready', function(){
+   			//console.log("所有plus api都应该在此事件发生后调用，否则会出现plus is undefined。"
+   			
+   		});
+   		
+    </script>
+</head>
+<body>
+	<main>
+		<section id="store">
+			<div id="hide">
+				<img src="http://s1.mi.com/m/images/20151027/ios.png" class="hide_img"/>
+				<p><img src="http://s1.mi.com/m/images/20151028/top-x.png" class="store_hide_img"/></p>
+			</div>
+			<header>
+				<div class="header_text">
+					<span class="fa fa-search fa-1x"><a href="#store"></a></span>
+					<span class="header-search">搜索商品名称</span>
+				</div>
+				<div class="header_border">
+					
+				</div>
+			</header>
+			<div id="banner">
+				<div id="banner_imgs"></div>
+				<div class="banner_icon">
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</div>
+			</div>
+			<div id="store_list">
+				
+			</div>
+			<div id="store_figure">
+				
+			</div>
+		</section>
+		<section id="classify">
+			<header>
+				<span class="fa fa-angle-left fa-x fa-left"><a href="#store"></a></span>
+				<span class="header-center">商品分类</span>
+				<span class="fa fa-search fa-1x fa-right"></span>	
+			</header>
+			
+		</section>
+		<section id="cart">
+			<header>
+				<span class="fa fa-angle-left fa-x fa-left"><a href="#store"></a></span>
+				<span class="header-center">购物车</span>
+				<span class="fa fa-search fa-1x fa-right"></span>	
+			</header>
+			<div class="cart_content">
+				<div class="cart_store">
+					<a href="#classify" class="cart_jump">全部商品</a>
+					<a href="###">精选商品</a>
+				</div>
+			</div>
+		</section>
+		<section id="serve">
+			<header>
+				<span class="fa fa-angle-left fa-x fa-left"><a href="#store"></a></span>
+				<span class="header-center">个人中心</span>
+				<span class="fa fa-search fa-1x fa-right"></span>	
+			</header>
+			<div class="main_top">
+				<div class="main_top1">
+					<h4>立即登录</h4>
+					<div class="login">
+						<p>+</p>
+					</div>
+				</div>
+			</div>
+			<div class="main_center">
+				<a href="###"><p></p><p>全部订单</p><div class="main_line"></div></a>
+				<a href="###"><p></p><p>待付款</p><div class="main_line"></div></a>
+				<a href="###"><p></p><p>待收货</p><div class="main_line"></div></a>
+			</div>	
+		<!--	<div class="serve_div">-->
+				<ul class="main_list1">
+					<li><span></span><p>我的优惠</p></li>
+					<li><span></span><p>F码通道</p></li>
+				</ul>
+				<ul class="main_list2">
+					<li><span></span><p>我的服务</p></li>
+				</ul>
+				<ul class="main_list3">
+					<li><span></span><p>设置</p></li>
+				</ul>
+			<!--</div>-->			
+		</section>
+	</main>
+	<!--footer -->
+	<footer>
+		<a href="#store" class="fa fa-home fa-x footer_a"><p>商城</p></a>
+		<a href="#classify" class="fa fa-th-large fa-x footer_a"><p>分类</p></a>
+		<a href="#cart" class="fa fa-shopping-cart fa-x footer_a"><p>购物车</p></a>
+		<a href="#serve" class="fa fa-user fa-x footer_a"><p>服务</p></a>
+	</footer>
+	
+	<div id="search">
+		<header>
+				<span class="fa fa-home fa-1.5x fa-left search-left"><a href="#store"></a></span>
+				<input type="text" name="" id="input" value="" />
+				<span class="fa fa-search fa-1x search-right"></span>	
+		</header>
+		<div class="search_text">
+			<li>小米Max直降200</li>
+			
+		</div>
+	</div>
+	<div id="search_one">
+		<header>
+				<span class="fa fa-angle-left fa-x fa-left"><a href="#store"></a></span>
+				<span class="fa fa-search fa-1x search-right fa-right"></span>	
+		</header>
+		<div class="search_one_text">
+			<div class="search_one_img">
+				<img />
+			</div>
+			<div class="search_one_model">
+				<p class="model"></p>
+				<p class="price"></p>
+				<p class="font"></p>
+			</div>
+			<div class="search_one_p">
+				<li>灰色</li>
+				<li>金色</li>
+				<li>银色</li>
+			</div>
+			<div class="search_one_p">
+				<li>16G</li>
+			</div>
+			<div class="search_one_img2">
+				
+			</div>
+		</div>
+		<div class="search_footer">
+			<span class="fa fa-home fa-1.5x fa-left search-one-left"><a href="#store"></a></span>
+		  	<a href="###" class="shopping">立即购买</a>
+			<span class="fa fa-shopping-cart fa-x search-one-right"></span>	
+		</div>
+	</div>
+	<script type="text/javascript">
+		document.documentElement.style.fontSize = innerWidth/16 +"px";
+		window.onresize =function(){
+			document.documentElement.style.fontSize = innerWidth/16 + "px";
+		}
+	</script>
+</body>
+</html>
